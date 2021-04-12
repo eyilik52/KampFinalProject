@@ -6,6 +6,7 @@ namespace Core.Utilities.Results
 {
     public class Result : IResult
     {
+        //Burası IResult'ın Somut classı...
 
         public Result(bool success, string message):this(success)
         {

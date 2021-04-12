@@ -13,7 +13,7 @@ namespace Core.Utilities.Results
 
         public SuccessDataResult(T data):base(data,true)
         {
-
+            //:base ile base'e parantezx içindekileri yolluyorum.
         }
 
         public SuccessDataResult(string message):base(default,true,message)

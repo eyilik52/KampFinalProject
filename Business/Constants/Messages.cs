@@ -8,6 +8,7 @@ namespace Business.Constants
 {
     public static class Messages
     {
+        //public değişkenler büyük harfle başlar. Normalde değişkenler küçük harle başlar.
         public static string ProductAdded = "Ürün eklendi";
         public static string ProductNameInvalid = "Ürün ismi geçersiz";
         public static string MaintenanceTime ="Sistem bakımda";
